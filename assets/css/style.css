@@ -5442,7 +5442,7 @@ del {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background-color: #8f1bdc !important
+    background-color: #1A00B2 !important
 }
 
 .slicknav_nav {
@@ -5459,7 +5459,7 @@ del {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #8f1bdc
+    color: #01ce6f
 }
 
 .slicknav_menu {
@@ -5710,19 +5710,17 @@ z .slider-area .hero-cap h2 {
     }
 }
 
-.best-features-area .single-features .features-icon span {
+.best-features-area .single-features .features-icon5 span {
     position: relative;
-    color: #fff;
+    color: transparent;
     font-size: 30px;
     height: 67px;
     width: 67px;
     display: block;
     line-height: 67px;
-    border-radius: 50%;
     text-align: center;
-    background-image: -moz-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-    background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-    background-image: -ms-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%)
+    background-image: url(../img/icons/icono5max.png);
+    background-size: 67px 67px;
 }
 
 .best-features-area .single-features .features-caption {
