@@ -63,7 +63,6 @@ z-index: -100;
 -moz-transform: translateX(-50%) translateY(-50%);
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
-background: url(assets/img/hero/fondo_720.jpg) no-repeat;
 background-size: center;
 }
 
@@ -2517,6 +2516,9 @@ hr {
     .footer-padding3 {
         padding-bottom: 50px
     }
+}
+.footer_soporte {
+    color: #ffffff;
 }
 
 .white-bg {
@@ -5548,10 +5550,11 @@ del {
 
 .slider-area .hero__caption span {
     display: inline-block;
-    color: #1A00B2;
+    color: #ffffff;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 20px
+    font-weight: 600px;
 }
 
 .slider-area .hero__caption h1 {
@@ -5881,7 +5884,7 @@ z .slider-area .hero-cap h2 {
     line-height: 105px;
     border-radius: 50%;
     text-align: center;
-    background: #e88cea;
+    background: #1A00B2;
     margin-bottom: 42px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -5898,11 +5901,11 @@ z .slider-area .hero-cap h2 {
 }
 
 .service-area .services-caption .service-cap h4 a:hover {
-    color: #835ef8
+    color: #01ce6f
 }
 
 .services-caption:hover {
-    border: 1px solid #b8a2ff
+    border: 1px solid #01ce6f
 }
 
 .services-caption:hover .service-icon::before {
@@ -5910,7 +5913,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption:hover .service-icon span {
-    background: #835ef8
+    background: #01ce6f
 }
 
 .services-caption.active {
