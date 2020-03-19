@@ -49,6 +49,23 @@
     background-size: cover;
 }
 
+video#bgvideo {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: fixed;
+height: fixed;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(assets/img/hero/fondo_720.jpg) no-repeat;
+background-size: center;
+}
+
 .boxed-btn {
     background: #fff;
     color: #8f1bdc !important;
@@ -160,6 +177,7 @@ p {
     margin-bottom: 15px;
     font-weight: normal
 }
+
 
 .bg-img-1 {
     background-image: url(../img/slider/slider-img-1.jpg)
