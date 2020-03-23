@@ -2252,7 +2252,7 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .section-padd-top30 {
         padding-top: 170px;
-        padding-bottom: 200px
+        padding-bottom: 200px;
     }
 }
 
@@ -5366,7 +5366,7 @@ del {
 .main-header .main-menu ul ul.submenu {
     position: absolute;
     width: 170px;
-    background: #fff;
+    background: white;
     left: 0;
     top: 80%;
     visibility: hidden;
@@ -6231,7 +6231,7 @@ z .slider-area .hero-cap h2 {
 
 .our-customer .our-customer-wrapper {
     padding: 0 134px
-    background: #f2f3f5;
+    background-color: #f2f3f5;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
