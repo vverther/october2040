@@ -2410,8 +2410,8 @@ hr {
 }
 
 .footer-padding {
-    padding-top: 200px;
-    padding-bottom: 100px
+    padding-top: 150px;
+    padding-bottom: 150px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -4166,9 +4166,7 @@ hr {
 }
 
 .available-app-area {
-    background-image: -moz-linear-gradient(0deg, #00d77b 0%, #2296b5 100%);
-    background-image: -webkit-linear-gradient(0deg, #00d77b 0%, #2296b5 100%);
-    background-image: -ms-linear-gradient(0deg, #00d77b 0%, #2296b5 100%)
+    background-color: #F2F3F5;
 }
 
 .sample-text-area {
