@@ -43,6 +43,13 @@
     color: #8f1bdc
 }
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 .hero-background {
     background-image: url(../img/hero/animation_test_hdv2.gif);
     background-repeat: no-repeat;
@@ -5554,7 +5561,7 @@ del {
 
 .slider-area .hero__caption span {
     display: inline-block;
-    color: #ffffff;
+    color: #000545;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 20px
@@ -5564,7 +5571,7 @@ del {
 .slider-area .hero__caption h1 {
     font-size: 65px;
     font-weight: 700;
-    color: #ffffff;
+    color: #1a00b2;
     font-family: "Montserrat", sans-serif;
     line-height: 1.3;
     margin-bottom: 32px
@@ -5594,7 +5601,7 @@ del {
 .slider-area .hero__caption p {
     margin-bottom: 54px;
     padding-right: 155px;
-    color: #ffffff;
+    color: #000545;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5879,16 +5886,14 @@ z .slider-area .hero-cap h2 {
 
 .service-area .services-caption .service-icon span {
     position: relative;
-    color: #fff;
     font-size: 40px;
     height: 105px;
     width: 105px;
     display: block;
     line-height: 105px;
-    border-radius: 50%;
     text-align: center;
-    background: #1A00B2;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
+    border-radius: 50%;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -o-transition: .5s;
@@ -5904,7 +5909,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .service-area .services-caption .service-cap h4 a:hover {
-    color: #01ce6f
+    color: #F2F3F5
 }
 
 .services-caption:hover {
@@ -5916,7 +5921,6 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption:hover .service-icon span {
-    background: #01ce6f
 }
 
 .services-caption.active {
@@ -6398,13 +6402,13 @@ z .slider-area .hero-cap h2 {
 }
 
 .available-app-area .app-caption .section-tittle3 h2 {
-    color: #fff;
+    color: #1a00b2;
     margin-bottom: 35px;
     font-weight: 600
 }
 
 .available-app-area .app-caption p {
-    color: #fff;
+    color: #232523;
     padding-right: 52px;
     padding-bottom: 26px
 }
