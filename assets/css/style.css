@@ -50,8 +50,15 @@
   width: 75%;
 }
 
+.center-octoliberbank {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 .hero-background {
-    background-image: url(../img/hero/animation_test_hdv2.gif);
+    background-image: url(../img/hero/village2.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -4181,6 +4188,7 @@ hr {
     padding-right: 300px;
     padding-left: 300px;
     padding-bottom: 100px;
+    color: #707b8e;
 }
 
 .text-heading {
